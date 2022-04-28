@@ -1,0 +1,107 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #1a4bd3, #1c3cb8, #192d9d, #141f84, #0c126b);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgb(102, 98, 98) ;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 1.8rem serif;
+    border-bottom: solid 3px rgb(73, 70, 70);
+    margin-bottom: 16px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 26px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    text-align: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.third {
+    border-color: #414180;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #272747cc inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0 0 10px rgb(102, 98, 98);
+    background-color: #0c126b;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
