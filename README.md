@@ -1,5 +1,5 @@
 # calculadoraIMC
-Calculadora IMC usando html, css e javascript, para ajudar as pessoas a terem maior controle do seu peso. 
+Calculadora IMC usando html, css e javascript, para ajudar as pessoas a terem controle do seu peso. 
 
 # Interface do projeto
 ![Captura de Tela (58)](https://user-images.githubusercontent.com/84694194/165860337-191e36b0-94b1-471c-a5ea-4eb8666cf7d7.png)
